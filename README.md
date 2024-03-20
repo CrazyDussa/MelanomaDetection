@@ -19,19 +19,19 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- We built CNN model on 2357 images of malignant in which our model was overfit.
+- We created Image augmention layer(Flip, Rotation and Zoom) and built CNN model which didn't learn much from data due to lesser number of samples.
+- We created model by adding 500 Images to each class which are created through Image Augmentation. This model is also overfit.
+- We can improve the perfomance of CNN model by Hyperparameter Tuning further.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- tensorflow - version 1.0
-- keras - version 2.0
-- matplotlib - version 3.0
-- seaborn - version
+- tensorflow - version 2.15.0
+- keras - version 3.0.5
+- matplotlib - version 3.7.5
+- seaborn - version 0.12.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
